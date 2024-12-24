@@ -1,0 +1,438 @@
+/*-------------Componets name for use css page ------------------------*/
+/* Homebannermodule,Summerymodule,Aboutmodule,Eventmodule,Teachersmodule,Parentsmodule,Schoolgallerymodule,Statusmodule,Partnersmodule,Newslettermodule */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* ------comman part for code -----START */
+.trigle-shape-above::before{
+    position:absolute;
+    content: ' ';
+    top:0;
+    height:7px;
+    width:100%;
+    background:url(../../../public/Images/section_top.png) repeat-x ;
+    display:block;
+    z-index:999;
+}
+
+.trigle-shape-above::after{
+    position:absolute;
+    content: ' ';
+    bottom:0;
+    height:7px;
+    width:100%;
+    background:url(../../../public/Images/section_bottom.png) repeat-x;
+    display:block;
+    z-index:999;
+}
+.trigle-shape-newsletter::before{
+   position:absolute;
+   content: ' ';
+   top:0;
+   height:7px;
+   width:100%;
+   display:block;
+   background:url(../../../public/Images/section_top.png) repeat-x ;
+   z-index:999;
+}
+button{
+    color:white;
+    padding:12px 20px;
+    margin-right:14px;
+    border:none;
+    
+}
+.center-content{
+    text-align:center;
+    padding:0px 100px;
+    padding:120px 0px 0px 0px;
+}
+.center-content p{
+    line-height:30px;
+}
+.view-portfolio{
+    font-weight:bold;
+
+}
+ .viewportfolio{
+    border:none;
+    color:white;
+    font-weight:bold;
+ }
+.btnjoin{
+   color:white;
+    padding:8px 20px;
+}
+.subscribe-now{
+   color:#92278F;
+   background-color:#FFFFFF;
+}
+/* ------comman part for code -----END */
+/* ------Homebannermodule----------START */
+.banner-section{    
+    position:relative;
+
+}
+.banner-section .carousel{
+
+}
+
+.banner-section .carousel-caption {
+    position:absolute;
+     top:30%;
+    left:9%;
+    text-align:left;
+    padding-bottom:0;
+    padding-top:0;
+    
+}
+/* .banner-section .carousel-caption p{
+    padding:0px 0px 0px 0px;
+} */
+.banner-section .carousel-caption button{
+    color:white;
+    padding:12px 20px;
+    margin-right:14px;
+    border:none;
+    
+}
+.banner-section .carousel .carousel-inner .carousel-item  img{
+   filter:brightness(60%);
+   height:100vh;
+    
+}
+.banner-section .carousel .carousel-indicators{
+    position:absolute;
+    left:0;
+    bottom:10px;
+    text-align:center;
+   
+}
+.banner-section .carousel .carousel-indicators button{
+    width:7px;
+    height:7px;
+    border-radius:50%;
+    opacity:1;
+}
+.banner-section .carousel .carousel-indicators .active{
+    background-color:#FCB614;
+    opacity:1;
+}
+/* ------Homebannermodule----------END */
+/* ------- Summerymodule-----------START  */
+.summmry-section {
+    height:auto;
+    margin:100px auto;
+}
+.summmry-section .summery-detail-1{
+    margin:40px auto;
+    text-align:center;
+}
+.summmry-section .summery-detail-1 p{
+    line-height:25px;
+}
+.summmry-section .summery-detail-1 h3{
+    margin-top:70px;
+}
+.summmry-section .summery-detail-1 span{
+    padding:50px;
+    border-radius:50%;
+}
+.summmry-section .summery-detail-1 span ::before{
+    color:white;
+    /* transform:rotate(-15deg) scale(1.2); */
+}
+.summmry-section .summery-detail-1 span::hover before{
+    color:white;
+ transform:rotate(-15deg) scale(1.2); 
+}
+/* ------- Summerymodule-----------END  */
+ /* ---------Aboutmodule ----------START */
+ .about-section{
+    position:relative;
+    background:linear-gradient(rgba(56, 165, 213,0.8),rgba(56, 165, 213,0.8)),url(../../../public/Images/about-bg.jpg) no-repeat;
+    background-size:cover;
+    height:600px;
+    padding:100px auto 140px auto;
+    
+ }
+ .about-section .about-row{
+
+ }
+ .about-section .about-content{
+    padding:40px 0px;
+ }
+ .about-section .about-content p{
+    line-height:30px;
+ }
+ /* ---------Aboutmodule ----------END */
+ /* ---------Popularmodule ----------START */
+ .popular-section{
+    
+
+ }
+ 
+ .popular-section  .populer-img img{
+    width:100%;
+ }
+ .popular-section .popular-class{
+    list-style:none;
+    padding:0px;
+    display:flex;
+    text-align:center;
+ }
+
+ .popular-section .popular-class li{
+    padding:10px 14px;
+    border:1px solid white;
+    width:33.3%;
+ }
+ .popular-section .popular-class li span{
+    font-size:14px;
+    font-weight:bold;
+    color:white;
+ }
+
+
+ /* ---------Popularmodule ----------END */
+ /* ---------Teachersmodule ----------START */
+ .teacher-section{
+    position:relative;
+    background:linear-gradient(rgba(107, 185, 75,0.8),rgba(107, 185, 75,0.8)),url(../../../public/Images/teacher-bg.jpg);
+    background-size:cover;
+    padding-bottom:120px;
+
+ }
+ .teacher-section .col-lg-6 .teacher-profile{
+    margin:20px;
+    color:white;
+    
+   
+ }
+ 
+ .teacher-section .teacher-profile .profile-img{
+    height:250px;
+    width:460px;
+    
+
+ }
+ .teacher-section .teacher-profile .profile-img img{
+    height:100%;
+    width:100%;
+ }
+ .teacher-section .teacher-profile .profile-data{
+    padding:30px 20px;
+ }
+ .teacher-section .teacher-profile .profile-data .icon span{
+    padding-right:20px;
+ }
+ .teacher-section .teacher-profile .profile-data p{
+    padding-top:15px;
+ }
+ /* .teacher-section .teacher-profile .profile-data .viewportfolio{
+    border:none;
+    color:white;
+    font-weight:bold;
+
+ } */
+ .teacher-section .teacher-profile .profile-data .viewportfolio:hover{
+    
+ }
+ /* ---------Teachersmodule ----------END */
+ /* ---------Schoolgallerysmodule ----------START */
+ .schgallery-section{
+    
+ }
+ .schgallery-section .gallery{
+    position:relative;
+    margin:0px auto;
+    text-align:center;
+ }
+ .schgallery-section .gallery:hover img{
+    position:absolute;
+    top:10px;
+    left:10px;
+    right:10px;
+    bottom:10px;
+    background-color:black;
+ }
+ /* ---------Schoolgallerysmodule ----------END */
+ /* ---------Statussmodule --------- START */
+ .status-section{
+    position:relative;
+    background:linear-gradient(rgba(167, 82, 165,0.8),rgba(167, 82, 165,0.8)),url(../../../public/Images/teacher-bg.jpg);
+    background-size:cover;
+    height:auto;
+ } 
+ .status-section .status-bar{
+    margin:100px auto;
+ }
+
+ /* ---------Statussmodule ----------END */
+ /* ---------Parentsmodule ----------START */
+ .parents-section{
+    margin-bottom:100px;
+ }
+ .parents-section .parents-content{
+    position:relative;
+ }
+ .parents-section .parents-say::before{
+    font-family:"Font Awesome 6 Free";
+   content: '\f10d';
+   font-weight:900;
+   position:absolute;
+   top:0;
+   left:0;
+   font-size:22px;
+   background:#fff;
+   line-height:24px;
+   color:#FFC000;
+   
+ }
+ .parents-section .parents-say::after{
+    font-family:"Font Awesome 6 Free";
+   content: '\f10e';
+   font-weight:900;
+   position:absolute;
+    bottom:-5px;
+   right:0;
+   font-size:22px;
+   background:#fff;
+   line-height:24px;
+   color:#FFC000;
+ }
+ 
+ /* ---------Parentsmodule ----------END */
+ /* ---------Partnersmodule ----------START */
+ .partner-section{
+   position:relative;
+    background:linear-gradient(rgba(247, 147, 55,0.8),rgba(247, 147, 55,0.8)),url(../../../public/Images/partner-bg.jpg);
+    background-size:cover;
+
+ }
+ .swiper .swiper-wrapper{
+   display:flex;
+   margin:40px auto 100px auto;
+   
+ }
+ .swiper .swiper-wrapper .swiper-slide{
+    padding:10px;
+ }
+
+ /* ---------Partnersmodule ----------END */
+ /* ---------Eventmodule ----------START */
+ .event-section{
+      margin-bottom:100px;
+      
+ }
+ .event-section .content{
+   justify-content:center;
+   align-items:center;
+
+ }
+ /* ---------Eventmodule ----------END */
+ /* ---------Newslettermodule ----------START */
+ .newsletter-section{
+   position:relative;
+   background-color:#92278F;
+   color:white;
+   text-align:left;
+   height:auto;
+}
+.newsletter-section .textbox{
+   display:flex;
+}
+.newsletter-section .textbox,.newsletter-section  h2{
+   margin:75px auto;
+   
+ }
+ .newsletter-section .textbox .form-control{
+    width:350px;
+    height:48px;
+    border-radius:0px;
+    margin-right:10px;
+   
+ }
+ 
+ .newsletter-section .textbox input[type='text']{
+   background-color:#92278F;
+   color:white;
+ }
+
+ /* ---------Newslettermodule ----------END */
+ 
+
+
+ @media screen and (max-width:1366px){
+   .teacher-section .col-lg-6 .teacher-profile{
+      display:flex;
+     
+   }
+
+ }
+   
+ @media screen and (max-width:992px){
+   /* .summmry-section .summery-detail-1{
+      margin:40px auto;
+
+  } */
+  .about-section{
+
+   
+   text-align:center;
+   height:auto;
+}
+
+   
+}
+
+
+@media screen and (max-width:768px){
+   
+    .banner-section .carousel .carousel-inner .carousel-item  img{
+        height:500px;
+    }
+    .banner-section .carousel-caption {
+       
+        width:100%;
+      
+        
+    }
+    
+}
+@media screen and (max-width:576px){
+
+   .schgallery-section .gallery{
+      
+      margin:0px auto;
+   }
+   .status-section .status-bar{
+      margin:20px auto;
+   }
+   .event-section .gallery{
+      
+      margin:0px auto;
+   }
+   .newsletter-section .textbox,.newsletter-section  h2{
+      margin:20px auto;
+      
+    }
+}
+@media screen and (max-width:346px){
+
+   .schgallery-section .gallery{
+      
+      margin:0px auto;
+   }
+   .status-section .status-bar{
+      margin:20px auto;
+   }
+   .newsletter-section .textbox,.newsletter-section  h2{
+      margin:20px auto;
+      
+    }
+}

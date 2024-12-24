@@ -1,0 +1,180 @@
+[
+    {
+        "label":"Home",
+        "link":"/",
+        "isDropdown":true,
+        "dropdownMenu":[
+            {
+                "label":"Home style 01",
+                "link":"/homestyle-01"
+
+            },
+            {
+                "label":"Home style 02",
+                "link":"/homestyle-02"
+
+            },
+            {
+                "label":"Home style 03",
+                "link":"/homestyle-03"
+
+            },
+            {
+                "label":"One Page",
+                "link":"/onepage"
+
+            },
+            {
+                "label":"Boxed Layout",
+                "link":"/boxedlayout"
+
+            },
+            {
+                "label":"RTI Version",
+                "link":"/rtiversion"
+
+            }
+        ]
+        
+    },
+    {
+        "label":"About",
+        "link":"/about",
+        "isDropdown":true,
+        "dropdownMenu":[
+            {
+                "label":"About Style 01",
+                "link":"/aboutstyle01"
+
+            },
+            {
+                "label":"About Style 02",
+                "link":"/aboutstyle02"
+
+            }
+        ]
+    
+        
+    },
+    {
+        "label":"Classes",
+        "link":"/classes",
+        "isDropdown":true,
+        "dropdownMenu":[
+            {
+                "label":"Classes",
+                "link":"/classes"
+
+            },
+            {
+                "label":"Classes Details",
+                "link":"/classesdetails"
+
+            }
+        ]
+        
+    },
+    {
+        "label":"Teachers",
+        "link":"/teachers",
+        "isDropdown":true,
+        "dropdownMenu":[
+            {
+                "label":"Teachers",
+                "link":"/teachers"
+
+            },
+            {
+                "label":"Teachers Details",
+                "link":"/teachersdetails"
+
+            }
+        ]
+        
+        
+    },
+    {
+        "label":"Pages",
+        "link":"/pages",
+        "isDropdown":true,
+        "dropdownMenu":[
+            {
+                "label":"Gallery",
+                "link":"/gallery"
+
+            },
+            {
+                "label":"Gallery Two",
+                "link":"/gallerytwo"
+
+            },
+            {
+                "label":"Event",
+                "link":"/event"
+
+            },
+            {
+                "label":"Event Details",
+                "link":"/eventdetails"
+
+            },
+            {
+                "label":"404 Error",
+                "link":"/404error"
+
+            }
+
+        ]
+       
+        
+    },
+    {
+        "label":"Blog",
+        "link":"/blog",
+        "isDropdown":true,
+        "dropdownMenu":[
+            {
+                "label":"Blog",
+                "link":"/blog"
+
+            },
+            {
+                "label":"Blog Pages",
+                "link":"/blogpages"
+
+            }
+        ]
+        
+    },
+    {
+        "label":"Shop",
+        "link":"/shop",
+        "isDropdown":true,
+        "dropdownMenu":[
+            {
+                "label":"Product Page",
+                "link":"/productpage"
+
+            },
+            {
+                "label":"Product Details",
+                "link":"/productdetails"
+
+            },
+            {
+                "label":"Shop Card",
+                "link":"/shopcard"
+
+            }
+        ]
+
+        
+    },
+    {
+        "label":"Contact",
+        "link":"/contact",
+        "isDropdown":false
+        
+    }
+
+]
