@@ -11,12 +11,14 @@ function Homebanner() {
           <img src={'./Images/banner_01.jpg'} alt="banner-1" className='img-fluid'/>
           <Carousel.Caption>
         
-               <h3>Welcome to KidsAcademy</h3>
+               <h3 className='animate__animated  animate__bounce animate__delay-2s'>Welcome to KidsAcademy</h3>
               <h2 className='f-s-46 fw-bold'>Best For Education</h2>
               <p>Monotonely principle centered ahitectures through and <br></br>standards magnetic metrics whereas
               </p>
+              <div >
               <button className='bg-purple'><i>Read More</i></button>
               <button className='bg-yellow'><i>Buy Now</i></button>
+              </div>
            
           </Carousel.Caption>
         </Carousel.Item>

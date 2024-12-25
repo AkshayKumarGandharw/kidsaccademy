@@ -6,7 +6,7 @@ import HeaderMenu from '../../JsonMenu/Header/HeaderJson.json';
 function Header() {
     function HeaderMn({ item }) {
         return (
-            <Link className='nav-link' to={item.link} >{item.label}</Link>
+            <Link className={`nav-link ${item.textcolorMenu} `} to={item.link} >{item.label}</Link>
             
         )
     }
@@ -16,7 +16,7 @@ function Header() {
                 {
                     // extecute map  method
                     item.dropdownMenu.map((item,index)=>{
-                        return <Link className='dropdown-item' to={item.link} key={index}>{item.label}</Link>
+                        return <Link className={`dropdown-item`} to={item.link} key={index}>{item.label}</Link>
                     })
                 }
 
@@ -43,7 +43,7 @@ function Header() {
                                 }
                                 else{
 
-                                    return <HeaderMn  item={item} key={index} />
+                                    return <HeaderMn  item={item} className={item.textcolorMenu} key={index} />
                                 }
                                 
                             })

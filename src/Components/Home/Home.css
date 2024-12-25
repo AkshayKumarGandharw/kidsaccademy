@@ -142,7 +142,7 @@ button{
     padding:50px;
     border-radius:50%;
 }
-.summmry-section .summery-detail-1 span ::before{
+.summmry-section .summery-detail-1 span::before{
     color:white;
     /* transform:rotate(-15deg) scale(1.2); */
 }
@@ -247,19 +247,60 @@ button{
  .schgallery-section{
     
  }
+ .schgallery-section .gallery .hover-content .btn-primary{
+   background-color:none;
+ }
+ .schgallery-section .gallery .hover-content .modalbtn{
+   
+   width:60px;
+   height:60px;
+   border-radius:50%;
+   background-color:#fff;
+   color:purple;
+   font-size:24px;
+   margin-top:-20px;
+   margin-bottom:20px;
+   border:4px solid #A882D0;
+
+}
  .schgallery-section .gallery{
     position:relative;
     margin:0px auto;
     text-align:center;
+    
  }
- .schgallery-section .gallery:hover img{
-    position:absolute;
-    top:10px;
-    left:10px;
-    right:10px;
-    bottom:10px;
-    background-color:black;
+ .modalbody{
+   width:500px;
+   height:450px;
  }
+ .schgallery-section .gallery .hover-content{
+   background-color:purple;
+   opacity:0.9;
+   position:absolute;
+   top:10px;
+   left:10px;
+   bottom:10px;
+   right:10px;
+   color:white;
+   padding-top:130px;
+   display:none;
+   transition:all 0.6s;
+   transform: 1s ease-in;
+ }
+  .schgallery-section .gallery:hover .hover-content{
+   display:block;
+
+ } 
+ 
+ /* .schgallery-section .gallery .hover-content .modalbtn::before{
+   position:absolute;
+   top:0px;
+   left:0px;
+  
+   background-color:red;
+ } */
+
+
  /* ---------Schoolgallerysmodule ----------END */
  /* ---------Statussmodule --------- START */
  .status-section{
