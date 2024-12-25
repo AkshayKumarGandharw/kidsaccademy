@@ -155,8 +155,7 @@ function Footer() {
             </Col>
             <Col md={6} sm={12} >
             <div className='social-icon text-white'>
-
-                <ul className='list-unstyled circle-social-icon'>
+                <ul className='list-unstyled circle-social-icon '>
                   <li >
                     <Link to='/' className='bg-blue' ><FontAwesomeIcon icon={faFacebookF} /></Link>
                   </li>
@@ -178,7 +177,6 @@ function Footer() {
             </Col>
           </Row>
         </Container>
-
       </div>
     </>
   )

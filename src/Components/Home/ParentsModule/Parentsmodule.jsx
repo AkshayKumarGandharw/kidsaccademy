@@ -7,22 +7,22 @@ function Parentsmodule() {
     {
       bordercolor: "b-yellow",
       img: "./Images/testimonial_01.jpg",
-      bottomimg:"./Images/testimonial_icon_01.jpg"
-      
+      bottomimg: "./Images/testimonial_icon_01.jpg"
+
 
     },
     {
       bordercolor: "b-red",
       img: "./Images/testimonial_02.jpg",
-       bottomimg:"./Images/testimonial_icon_02.jpg"
-     
-      
+      bottomimg: "./Images/testimonial_icon_02.jpg"
+
+
     },
     {
       bordercolor: "b-orange",
       img: "./Images/testimonial_03.jpg",
-       bottomimg:"./Images/testimonial_icon_03.jpg"
-     
+      bottomimg: "./Images/testimonial_icon_03.jpg"
+
     },
   ]
   return (
@@ -42,17 +42,18 @@ function Parentsmodule() {
               return (
                 <Col lg={4} md={6} sm={6} key={index}>
                   <div className="parents-content">
-                  <div className={`p-3 rounded-3 parents-say ${parents.bordercolor}`}>
-                    
-                    <p>Professionally predominate that timely infrastriuctures tops line methodlogies
-                    </p>
-                    <h4 className='text-red'>Joly Smith <span className='f-s-14 '>ui/ux Designer</span></h4>
-                    
+                    <div className={`p-3 rounded-3 parents-say ${parents.bordercolor}`}>
+                      <p>Professionally predominate that timely infrastriuctures tops line methodlogies
+                      </p>
+                      <h4 className='text-red'>Joly Smith <span className='f-s-14 '>ui/ux Designer</span></h4>
+                    </div >
                   </div>
-                  <img src={parents.bottomimg} alt="bottomimg" className=' '/>
+                  <img src={parents.bottomimg} alt="bottomimg" className='bottomimg img-fluid'/>
+                  <div className="parentsimg mb-4">
+                    <img src={parents.img} alt="parentsimg" className={`img-fluid parentsimg ${parents.bordercolor}`}/>
                   </div>
                 </Col>
-                
+
               )
             })
           }

@@ -70,6 +70,7 @@ button{
 .subscribe-now{
    color:#92278F;
    background-color:#FFFFFF;
+   padding:8px 14px;
 }
 /* ------comman part for code -----END */
 /* ------Homebannermodule----------START */
@@ -205,27 +206,30 @@ button{
     background:linear-gradient(rgba(107, 185, 75,0.8),rgba(107, 185, 75,0.8)),url(../../../public/Images/teacher-bg.jpg);
     background-size:cover;
     padding-bottom:120px;
-
- }
- .teacher-section .col-lg-6 .teacher-profile{
-    margin:20px;
-    color:white;
+    overflow:hidden;
     
+   }
+   .teacher-section .col-lg-6 .teacher-profile{
+      margin:20px;
+      color:white;
+      display:flex;
    
  }
  
  .teacher-section .teacher-profile .profile-img{
-    height:250px;
-    width:460px;
+   
+    width:40%;
+    height:300px;
     
 
  }
  .teacher-section .teacher-profile .profile-img img{
     height:100%;
-    width:100%;
+    
  }
  .teacher-section .teacher-profile .profile-data{
     padding:30px 20px;
+    width:60%;
  }
  .teacher-section .teacher-profile .profile-data .icon span{
     padding-right:20px;
@@ -292,15 +296,7 @@ button{
 
  } 
  
- /* .schgallery-section .gallery .hover-content .modalbtn::before{
-   position:absolute;
-   top:0px;
-   left:0px;
-  
-   background-color:red;
- } */
-
-
+ 
  /* ---------Schoolgallerysmodule ----------END */
  /* ---------Statussmodule --------- START */
  .status-section{
@@ -339,14 +335,38 @@ button{
    content: '\f10e';
    font-weight:900;
    position:absolute;
-    bottom:-5px;
+    bottom:0px;
    right:0;
    font-size:22px;
    background:#fff;
    line-height:24px;
    color:#FFC000;
  }
- 
+ .parents-section .row .col-lg-4:nth-child(2) .parents-content ::before{
+   color:#E84B3A;
+ }
+ .parents-section .row .col-lg-4:nth-child(2) .parents-content ::after{
+   color:#E84B3A;
+ }
+ .parents-section .row .col-lg-4:nth-child(3) .parents-content ::before{
+   color:#FC7F0C;
+ }
+ .parents-section .row .col-lg-4:nth-child(3) .parents-content ::after{
+   color:#FC7F0C;
+ }
+ .parents-section .bottomimg{
+   position:relative;
+   margin-left:30px;
+   top:-2px;
+   
+
+}
+.parents-section .parentsimg{
+   margin-left:50px;
+   border-radius:50%;
+   margin-top:-20px;
+   
+}
  /* ---------Parentsmodule ----------END */
  /* ---------Partnersmodule ----------START */
  .partner-section{
@@ -410,7 +430,7 @@ button{
 
  @media screen and (max-width:1366px){
    .teacher-section .col-lg-6 .teacher-profile{
-      display:flex;
+      
      
    }
 
@@ -427,7 +447,10 @@ button{
    text-align:center;
    height:auto;
 }
-
+.teacher-section .col-lg-6 .teacher-profile{
+   
+  
+}
    
 }
 
@@ -443,6 +466,26 @@ button{
       
         
     }
+    .teacher-section .teacher-profile .profile-img{
+   
+      width:100%;
+      height:300px;
+      margin-left:100px;
+  
+   }
+   .teacher-section .teacher-profile .profile-img img{
+      height:100%;
+      
+   }
+   .teacher-section .teacher-profile .profile-data{
+      padding:30px 20px;
+      width:80%;
+      margin-top:300px;
+      margin-left:-400px;
+      justify-content:center;
+      align-items:center;
+
+   }
     
 }
 @media screen and (max-width:576px){
@@ -462,6 +505,13 @@ button{
       margin:20px auto;
       
     }
+    .newsletter-section .textbox .form-control{
+      width:290px;
+      height:48px;
+      border-radius:0px;
+      margin-right:12px;
+     
+   }
 }
 @media screen and (max-width:346px){
 
@@ -476,4 +526,6 @@ button{
       margin:20px auto;
       
     }
+   
+  
 }
